@@ -1,0 +1,21 @@
+{
+  "name": "webpack-2-output-managment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack:start-dev": "webpack --mode=development --config=webpack.config.js",
+    "webpack:start-prod": "webpack --mode=production --config=webpack.config.js",
+    "build-prod": "webpack --mode production",
+    "build-dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
